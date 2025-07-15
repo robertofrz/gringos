@@ -9,7 +9,7 @@ function Hero() {
   "
     >
       <div className="sm:w-1/2 w-full mb-16 sm:mb-0 sm:ml-45 flex flex-col items-center sm:items-start justify-center text-center sm:text-left">
-        <h1 className="text-5xl sm:text-8xl text-[#FCFDFB] mb-6 font-semibold">
+        <h1 className="text-5xl sm:text-7xl text-[#FCFDFB] mb-6 font-semibold">
           Seu novo visual <br /> começa aqui
         </h1>
 
