@@ -57,10 +57,10 @@ function Proposta() {
   return (
     <section className="h-min-screen flex items-center justify-center py-40">
       <div className="container m-auto grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 text-[#FCFDFB]">
-        {propostas.map(({ titulo, descricao, url, alt }) => (
+        {propostas.map(({ titulo, descricao, url, alt, index }) => (
           <div
-            key={titulo}
-            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-center text-center gap-3 p-6 rounded-b-2xl"
+            key={alt}
+            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-evenly text-center gap-3 p-6 rounded-b-2xl"
           >
             <Image
               src={url}

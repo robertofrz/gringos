@@ -27,7 +27,7 @@ function Depoimentos() {
     },
     {
       avaliacao:
-        '"Sou cliente fiel há 8 anos. Isso já diz tudo... Muito profissionais e competentes, espaço bonito, equipe bacana. Às vezes passo só pra um café e um oi. Nota 1.000"',
+        '"Sou cliente fiel há 8 anos. Isso já diz tudo... Muito profissionais e competentes, espaço bonito, equipe bacana. Às vezes passo só pra um café e um oi. Nota 1000!"',
       autor: "- Flávio G.",
     },
   ];
@@ -35,7 +35,7 @@ function Depoimentos() {
   return (
     <section
       id="depoimentos"
-      className="h-min-screen flex flex-col items-center justify-center py-20"
+      className="h-min-screen flex flex-col items-center justify-center pt-30 pb-20"
     >
       <h2 className="text-4xl sm:text-6xl font-bold text-center text-[#FCFDFB] exo mb-8 mt-12">
         Experiências que <br /> valem 5 estrelas

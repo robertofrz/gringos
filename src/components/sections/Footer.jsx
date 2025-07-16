@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#5C2B2E] text-[#FCFDFB]/80 text-center montserrat py-6">
       <p className="text-xs sm:text-base">
-        © {year} Gringos Barbershop. Todos os direitos reservados.
+        © {year} Gringo's Barbershop. Todos os direitos reservados.
       </p>
     </footer>
   );

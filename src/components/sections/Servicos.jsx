@@ -69,7 +69,7 @@ export default function Servicos() {
   return (
     <section
       id="servicos"
-      className="w-full flex flex-col justify-start items-center bg-[#181F29] py-16 px-4"
+      className="w-full flex flex-col justify-start items-center bg-[#181F29] py-20 px-4"
     >
       <div className="w-[90vw] sm:max-w-3xl mx-auto mt-12">
         <h2 className="text-4xl sm:text-6xl font-bold text-center text-[#FCFDFB] exo mb-10">

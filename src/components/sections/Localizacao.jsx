@@ -14,9 +14,9 @@ function Localizacao() {
   return (
     <section
       id="localizacao"
-      className="py-20 mb-20 bg-[#181F29] text-[#FCFDFB]"
+      className="pb-20 pt-10 mb-20 bg-[#181F29] text-[#FCFDFB]"
     >
-      <div className="container mx-auto w-[90vw] sm:max-w-6xl mt-12">
+      <div className="container mx-auto w-[90vw] sm:max-w-6xl mt-14">
         <h2 className="text-4xl sm:text-6xl font-bold text-center text-[#FCFDFB] exo mb-12">
           A localização mais <br />
           paulistana da cidade
