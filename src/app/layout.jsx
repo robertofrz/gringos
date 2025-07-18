@@ -1,16 +1,10 @@
 import Header from "@/components/sections/Header";
 import "./globals.css";
-import { Montserrat, Exo_2 } from "next/font/google";
 import Footer from "@/components/sections/Footer";
+import localFont from "next/font/local";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-});
-
-const exo = Exo_2({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+const clash = localFont({
+  src: "./fonts/ClashGrotesk-Regular.otf",
 });
 
 export const metadata = {
@@ -23,9 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`  ${exo.className} ${montserrat.className} bg-[#181F29]`}
-      >
+      <body className={`  ${clash.className} bg-[#181F29]`}>
         <Header />
         {children}
         <Footer />

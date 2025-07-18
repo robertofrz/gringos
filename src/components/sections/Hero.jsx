@@ -9,12 +9,12 @@ function Hero() {
     >
       <div className="sm:w-1/2 w-full mb-16 sm:mb-0 sm:ml-45 flex flex-col items-center sm:items-start justify-center text-center sm:text-left">
         {/* h1 */}
-        <h1 className="text-5xl sm:text-7xl text-[#FCFDFB] mb-6 font-semibold fade-up fade-up-delay-1">
+        <h1 className="text-5xl sm:text-7xl text-[#FCFDFB] font-bold tracking-wide mb-6 fade-up fade-up-delay-1">
           Seu novo visual <br /> começa aqui
         </h1>
 
         {/* p */}
-        <p className="text-xl w-4/6 text-[#FCFDFB] sm:font-medium font-semibold montserrat fade-up fade-up-delay-2">
+        <p className="text-xl w-4/6 text-[#FCFDFB] font-medium montserrat fade-up fade-up-delay-2">
           No coração de São Paulo, a poucos passos da Avenida Paulista.
         </p>
 

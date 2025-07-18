@@ -23,26 +23,26 @@ export default function Header() {
         <nav className="hidden md:flex gap-8 items-center">
           <a
             href="#servicos"
-            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] font-medium transition"
+            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] transition"
           >
             Serviços
           </a>
           <a
             href="#profissionais"
-            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] font-medium transition"
+            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] transition"
           >
             Profissionais
           </a>
 
           <a
             href="#depoimentos"
-            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] font-medium transition"
+            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] transition"
           >
             Depoimentos
           </a>
           <a
             href="#localizacao"
-            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] font-medium transition"
+            className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] transition"
           >
             Localização
           </a>
@@ -74,28 +74,28 @@ export default function Header() {
           <nav className="flex flex-col items-start px-6 py-4 gap-4">
             <a
               href="#servicos"
-              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] font-medium transition"
+              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] transition"
               onClick={() => setMenuAberto(false)}
             >
               Serviços
             </a>
             <a
               href="#profissionais"
-              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] font-medium transition"
+              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] transition"
               onClick={() => setMenuAberto(false)}
             >
               Profissionais
             </a>
             <a
               href="#depoimentos"
-              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] font-medium transition"
+              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] transition"
               onClick={() => setMenuAberto(false)}
             >
               Depoimentos
             </a>
             <a
               href="#localizacao"
-              className=" scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] font-medium transition"
+              className=" scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] transition"
               onClick={() => setMenuAberto(false)}
             >
               Localização
@@ -107,7 +107,7 @@ export default function Header() {
               )}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] font-medium transition"
+              className="scroll-smooth text-[#FCFDFB] py-2 text-lg hover:text-[#CC9253] transition"
             >
               Contato
             </a>

@@ -72,7 +72,7 @@ export default function Servicos() {
       className="w-full flex flex-col justify-start items-center bg-[#181F29] py-20 px-4"
     >
       <div className="w-[90vw] sm:max-w-3xl mx-auto mt-12">
-        <h2 className="text-4xl sm:text-6xl font-bold text-center text-[#FCFDFB] exo mb-10">
+        <h2 className="text-4xl sm:text-6xl text-center text-[#FCFDFB] tracking-wide font-bold mb-10">
           Nossos Serviços
         </h2>
 
@@ -80,7 +80,7 @@ export default function Servicos() {
           <div key={index} className="py-1">
             <button
               onClick={() => toggle(index)}
-              className="w-full bg-[#5C2B2E]/70 p-3 flex items-center justify-between rounded-lg text-left text-[#FCFDFB] text-xl font-semibold"
+              className="w-full bg-[#5C2B2E]/70 p-3 flex items-center justify-between rounded-lg text-left text-[#FCFDFB] text-xl"
             >
               <span>{servico.categoria}</span>
               <ChevronDown
@@ -91,14 +91,14 @@ export default function Servicos() {
             </button>
 
             {openIndex === index && (
-              <ul className="mt-4 space-y-2 text-[#FCFDFB] text-sm sm:text-lg px-2 montserrat">
+              <ul className="mt-4 space-y-2 text-[#FCFDFB] text-sm sm:text-lg px-2 montserrat font-light">
                 {servico.items.map(([nome, preco], i) => (
                   <li
                     key={i}
                     className="flex justify-between border-b border-[#CC9253]/20 pb-2"
                   >
                     <span className="exo">{nome}</span>
-                    <span className="text-[#FCFDFB] font-medium montserrat">
+                    <span className="text-[#FCFDFB] montserrat">
                       R$ {preco}
                     </span>
                   </li>

@@ -18,10 +18,10 @@ export default function RedesSociais() {
 
       {/* Redes Sociais */}
       <div className="flex flex-col items-center gap-6">
-        <h2 className="text-4xl sm:text-5xl font-bold text-center text-[#FCFDFB] exo ">
+        <h2 className="text-4xl sm:text-5xl tracking-wide text-center text-[#FCFDFB] font-bold">
           Siga a Gringo's nas <br /> redes sociais!
         </h2>
-        <p className="text-[#FCFDFB] text-lg sm:text-xl text-center max-w-md leading-relaxed montserrat mb-8">
+        <p className="text-[#FCFDFB] text-lg text-center max-w-md font-light leading-relaxed montserrat mb-8">
           Lá você encontra vídeos e fotos dos cortes feitos nos nossos clientes,
           vê como é o dia a dia na barbearia e fica por dentro de avisos
           importantes e novidades.

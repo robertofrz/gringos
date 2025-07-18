@@ -69,10 +69,10 @@ function Proposta() {
               height={60}
               className="invert"
             />
-            <h2 className="exo text-2xl font-semibold text-[#FCFDFB]">
+            <h2 className="exo text-2xl tracking-wide font-bold text-[#FCFDFB]">
               {titulo}
             </h2>
-            <p className="montserrat">{descricao}</p>
+            <p className="montserrat font-light">{descricao}</p>
           </div>
         ))}
       </div>

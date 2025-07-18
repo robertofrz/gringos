@@ -17,10 +17,10 @@ function Equipe() {
           "
         ></div>
         <div className="text-center lg:text-left w-full px-6 pb-12 sm:pb-0 sm:px-0 sm:max-w-xl">
-          <h2 className="text-4xl lg:text-6xl font-bold text-[#FCFDFB]  mb-6 exo leading-tight">
+          <h2 className="text-4xl lg:text-6xl tracking-wide text-[#FCFDFB]  mb-6 font-bold leading-tight">
             Barbeiros de <br /> Excelência
           </h2>
-          <p className="text-[#FCFDFB] text-lg sm:text-xl montserrat">
+          <p className="text-[#FCFDFB] text-lg sm:text-xl font-light  montserrat">
             Na nossa barbearia, você pode contar com os melhores barbeiros de
             São Paulo. Nossa equipe é formada por profissionais altamente
             qualificados, apaixonados pelo que fazem e sempre atentos às

@@ -17,7 +17,7 @@ function Localizacao() {
       className="pb-20 pt-10 mb-20 bg-[#181F29] text-[#FCFDFB]"
     >
       <div className="container mx-auto w-[90vw] sm:max-w-6xl mt-14">
-        <h2 className="text-4xl sm:text-6xl font-bold text-center text-[#FCFDFB] exo mb-12">
+        <h2 className="text-4xl tracking-wide sm:text-6xl text-center font-bold text-[#FCFDFB] exo mb-12">
           A localização mais <br />
           paulistana da cidade
         </h2>
@@ -29,7 +29,7 @@ function Localizacao() {
             {/* Endereço */}
             <div className="flex items-start gap-3 mb-6">
               <MapPin className="w-7 h-7 text-[#CC9253] mt-2 shrink-0" />
-              <p className="text-base sm:text-lg leading-relaxed montserrat">
+              <p className="text-base sm:text-lg font-light leading-relaxed montserrat">
                 Carlos Sampaio Mall – Rua Carlos Sampaio, 331 – Bela Vista, São
                 Paulo – SP, 01333-021 (ao lado da Estação Brigadeiro, da linha
                 verde do Metrô)
@@ -37,14 +37,14 @@ function Localizacao() {
             </div>
 
             {/* Horário de funcionamento */}
-            <h3 className="text-2xl font-semibold text-[#CC9253] mb-4">
+            <h3 className="text-2xl tracking-wide text-[#FCFDFB] font-bold mb-4">
               Horário de Funcionamento
             </h3>
             <div className="flex flex-col gap-2 text-sm sm:text-base montserrat">
               {funcionamento.map(({ dia, horario }) => (
                 <div
                   key={dia}
-                  className="flex justify-between border-b text-base sm:text-lg border-[#CC9253]/20 pb-1"
+                  className="flex justify-between border-b font-light text-base sm:text-lg border-[#CC9253]/20 pb-1"
                 >
                   <span>{dia}</span>
                   <span>{horario}</span>
