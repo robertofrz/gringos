@@ -20,7 +20,7 @@ export default function Header() {
         </a>
 
         {/* Links - Desktop */}
-        <nav className="hidden md:flex gap-8 items-center">
+        <nav className="hidden lg:flex gap-8 items-center">
           <a
             href="#servicos"
             className="scroll-smooth text-[#FCFDFB] text-lg hover:text-[#CC9253] transition"
@@ -52,7 +52,7 @@ export default function Header() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#CC9253] text-white py-1 px-4 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
+            className="bg-[#CC9253] tracking-[0.0625rem] text-white py-1 px-4 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
           >
             Contato
           </a>
@@ -60,7 +60,7 @@ export default function Header() {
 
         {/* Botão Hamburguer - Mobile */}
         <button
-          className="md:hidden text-[#FCFDFB]"
+          className="lg:hidden text-[#FCFDFB]"
           onClick={() => setMenuAberto(!menuAberto)}
           aria-label="Abrir menu"
         >
@@ -70,7 +70,7 @@ export default function Header() {
 
       {/* Menu Mobile */}
       {menuAberto && (
-        <div className="md:hidden bg-[#181F29] shadow-md">
+        <div className="lg:hidden bg-[#181F29] shadow-md">
           <nav className="flex flex-col items-start px-6 py-4 gap-4">
             <a
               href="#servicos"

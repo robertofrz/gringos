@@ -56,23 +56,23 @@ function Proposta() {
 
   return (
     <section className="h-min-screen flex items-center justify-center py-40">
-      <div className="container m-auto grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 text-[#FCFDFB]">
+      <div className="container m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 text-[#FCFDFB]">
         {propostas.map(({ titulo, descricao, url, alt, index }) => (
           <div
             key={alt}
-            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-evenly text-center gap-3 p-6 rounded-b-2xl"
+            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-center text-center p-6 rounded-b-2xl"
           >
             <Image
               src={url}
               alt={alt}
               width={60}
               height={60}
-              className="invert"
+              className="invert mb-4"
             />
-            <h2 className="exo text-2xl tracking-wide font-bold text-[#FCFDFB]">
+            <h2 className="text-xl leading-[1] mb-4 font-bold text-[#FCFDFB]">
               {titulo}
             </h2>
-            <p className="montserrat font-light">{descricao}</p>
+            <p className="montserrat font-light text-base">{descricao}</p>
           </div>
         ))}
       </div>

@@ -17,7 +17,7 @@ function Localizacao() {
       className="pb-20 pt-10 mb-20 bg-[#181F29] text-[#FCFDFB]"
     >
       <div className="container mx-auto w-[90vw] sm:max-w-6xl mt-14">
-        <h2 className="text-4xl tracking-wide sm:text-6xl text-center font-bold text-[#FCFDFB] exo mb-12">
+        <h2 className="text-3xl leading-[1] tracking-[-0.0625rem] sm:text-6xl text-center font-bold text-[#FCFDFB] exo mb-8">
           A localização mais <br />
           paulistana da cidade
         </h2>
@@ -29,7 +29,7 @@ function Localizacao() {
             {/* Endereço */}
             <div className="flex items-start gap-3 mb-6">
               <MapPin className="w-7 h-7 text-[#CC9253] mt-2 shrink-0" />
-              <p className="text-base sm:text-lg font-light leading-relaxed montserrat">
+              <p className="text-sm sm:text-lg font-light leading-relaxed montserrat">
                 Carlos Sampaio Mall – Rua Carlos Sampaio, 331 – Bela Vista, São
                 Paulo – SP, 01333-021 (ao lado da Estação Brigadeiro, da linha
                 verde do Metrô)
@@ -37,14 +37,14 @@ function Localizacao() {
             </div>
 
             {/* Horário de funcionamento */}
-            <h3 className="text-2xl tracking-wide text-[#FCFDFB] font-bold mb-4">
+            <h3 className="text-xl text-[#FCFDFB] font-bold mb-4">
               Horário de Funcionamento
             </h3>
             <div className="flex flex-col gap-2 text-sm sm:text-base montserrat">
               {funcionamento.map(({ dia, horario }) => (
                 <div
                   key={dia}
-                  className="flex justify-between border-b font-light text-base sm:text-lg border-[#CC9253]/20 pb-1"
+                  className="flex justify-between border-b font-light text-sm sm:text-lg border-[#CC9253]/20 pb-1"
                 >
                   <span>{dia}</span>
                   <span>{horario}</span>
@@ -76,7 +76,7 @@ function Localizacao() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#CC9253] text-white py-3 px-5 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
+            className="bg-[#CC9253] tracking-[0.0625rem] text-white py-3 px-5 rounded-full font-semibold text-base shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
           >
             Agendar Pelo WhatsApp
           </a>
@@ -84,7 +84,7 @@ function Localizacao() {
             href="https://booksy.com/pt-br/73395_gringo-s-barbershop_barbearias_1047773_sao-paulo#ba_s=seo"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#CC9253] text-white py-3 px-5 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
+            className="bg-[#CC9253] tracking-[0.0625rem] text-white py-3 px-5 rounded-full font-semibold text-base shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
           >
             Agendar Pelo Booksy
           </a>

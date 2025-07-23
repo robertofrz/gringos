@@ -37,19 +37,19 @@ function Depoimentos() {
       id="depoimentos"
       className="h-min-screen flex flex-col items-center justify-center pt-30 pb-20"
     >
-      <h2 className="text-4xl sm:text-6xl tracking-wide text-center text-[#FCFDFB] font-bold mb-8 mt-12">
+      <h2 className="text-3xl sm:text-6xl leading-[1] tracking-[-0.0625rem] text-center text-[#FCFDFB] font-bold mb-8 mt-12">
         Experiências que <br /> valem 5 estrelas
       </h2>
-      <div className="container m-auto grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 text-[#FCFDFB]">
+      <div className="container m-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 text-[#FCFDFB]">
         {depoimentos.map(({ avaliacao, autor }) => (
           <div
             key={autor}
-            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-evenly text-center gap-3 p-6 rounded-b-2xl"
+            className="bg-gradient-to-b from-[#181F29] to-[99%] to-[#5C2B2E] flex flex-col items-center justify-end text-center p-6 rounded-b-2xl"
           >
-            <p className="montserrat text-lg font-light italic text-[#FCFDFB]">
+            <p className="montserrat text-base font-light italic mb-4 text-[#FCFDFB]">
               {avaliacao}
             </p>
-            <p className="text-xl tracking-wide font-bold text-[#FCFDFB]">
+            <p className="text-lg tracking-wide font-bold text-[#FCFDFB]">
               {autor}
             </p>
           </div>

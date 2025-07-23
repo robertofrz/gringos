@@ -4,7 +4,7 @@ export default function RedesSociais() {
   return (
     <section className="bg-[#5C2B2E] flex flex-col md:flex-row items-center justify-center gap-12 sm:gap-22 p-4 md:p-12 py-22">
       {/* Vídeo estilizado */}
-      <div className="relative w-full md:w-[400px] md:h-[400px] aspect-square overflow-hidden rounded-xl shadow-lg">
+      <div className="relative w-full lg:w-[400px] lg:h-[400px] aspect-square overflow-hidden rounded-xl shadow-lg">
         <video
           src="/video-instagram.mp4"
           autoPlay
@@ -17,11 +17,11 @@ export default function RedesSociais() {
       </div>
 
       {/* Redes Sociais */}
-      <div className="flex flex-col items-center gap-6">
-        <h2 className="text-4xl sm:text-5xl tracking-wide text-center text-[#FCFDFB] font-bold">
-          Siga a Gringo's nas <br /> redes sociais!
+      <div className="flex flex-col items-center">
+        <h2 className="text-3xl sm:text-5xl leading-[1] tracking-[-0.0625rem] text-center text-[#FCFDFB] font-bold mb-8">
+          Siga a Gringo's nas redes sociais!
         </h2>
-        <p className="text-[#FCFDFB] text-lg text-center max-w-md font-light leading-relaxed montserrat mb-8">
+        <p className="text-[#FCFDFB] text-base text-center max-w-md font-light montserrat mb-8">
           Lá você encontra vídeos e fotos dos cortes feitos nos nossos clientes,
           vê como é o dia a dia na barbearia e fica por dentro de avisos
           importantes e novidades.
@@ -35,8 +35,8 @@ export default function RedesSociais() {
             <Image
               src="/instagram.webp"
               alt="Instagram"
-              width={70}
-              height={70}
+              width={60}
+              height={60}
               className="invert"
             />
           </a>
@@ -48,8 +48,8 @@ export default function RedesSociais() {
             <Image
               src="/facebook.webp"
               alt="Facebook"
-              width={66}
-              height={66}
+              width={56}
+              height={56}
               className="invert"
             />
           </a>

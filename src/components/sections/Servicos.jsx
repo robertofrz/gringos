@@ -72,7 +72,7 @@ export default function Servicos() {
       className="w-full flex flex-col justify-start items-center bg-[#181F29] py-20 px-4"
     >
       <div className="w-[90vw] sm:max-w-3xl mx-auto mt-12">
-        <h2 className="text-4xl sm:text-6xl text-center text-[#FCFDFB] tracking-wide font-bold mb-10">
+        <h2 className="text-3xl sm:text-6xl text-center text-[#FCFDFB] leading-[1] tracking-[-0.0625rem] font-bold mb-8">
           Nossos Serviços
         </h2>
 
@@ -80,7 +80,7 @@ export default function Servicos() {
           <div key={index} className="py-1">
             <button
               onClick={() => toggle(index)}
-              className="w-full bg-[#5C2B2E]/70 p-3 flex items-center justify-between rounded-lg text-left text-[#FCFDFB] text-xl"
+              className="w-full bg-[#5C2B2E]/70 p-3 flex items-center justify-between rounded-lg text-left font-medium text-[#FCFDFB] text-lg"
             >
               <span>{servico.categoria}</span>
               <ChevronDown
@@ -114,7 +114,7 @@ export default function Servicos() {
             )}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#CC9253] text-white py-3 px-5 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
+            className="bg-[#CC9253] tracking-[0.0625rem] text-white py-3 px-5 rounded-full font-semibold text-base shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
           >
             Agendar Pelo WhatsApp
           </a>
@@ -122,7 +122,7 @@ export default function Servicos() {
             href="https://booksy.com/pt-br/73395_gringo-s-barbershop_barbearias_1047773_sao-paulo#ba_s=seo"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#CC9253] text-white py-3 px-5 rounded-full font-semibold text-lg shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
+            className="bg-[#CC9253] tracking-[0.0625rem] text-white py-3 px-5 rounded-full font-semibold text-base shadow-lg border-2 sm:border-3 border-[#b37b40] hover:bg-[#b37b40] cursor-pointer montserrat"
           >
             Agendar Pelo Booksy
           </a>
